@@ -1,0 +1,12 @@
+site_name: RetroMCP Docs
+site_url: https://docs.limegradient.xyz
+nav:
+  - Home: index.md
+  - About: about.md
+  - Beta:
+    - Getting Started: beta/gettingstarted.md
+    - Making a Block: beta/block.md
+    - Making a Item: beta/item.md
+    - Making a Recipe: beta/recipe.md
+theme:
+  name: dracula
