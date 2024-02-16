@@ -28,3 +28,7 @@ Then you need to add the block to the Block.java file, which is also pretty stra
 | setHardness      | How long to destroy a block      |
 | setResistance      | How durable the block is against explosions      |
 | setStepSound      | The sound played when you step on the block      |
+| setBlockName      | The name of the block      |
+| setLightValue      | How much light the block emits      |
+| setBlockUnbreakable      | Makes the block unbreakable      |
+| setLightOpacity      | Sets how much light the block allows through      |
