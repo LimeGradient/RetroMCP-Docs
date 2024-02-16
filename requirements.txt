@@ -1,1 +1,10 @@
 mkdocs-dracula-theme
+Click
+Jinja2
+livereload
+Markdown
+MarkupSafe
+mkdocs
+PyYAML
+six
+tornado
