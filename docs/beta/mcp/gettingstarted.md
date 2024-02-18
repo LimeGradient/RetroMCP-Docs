@@ -12,7 +12,7 @@ Once you have JDK 8 and Eclipse installed and setup, follow these steps to setup
 3. Run the jar in the command line with `java -jar RetroMCP-Java-all.jar`  
 4. Run the setup task with `setup`  
 5. Choose which version you want to use from this list of versions and enter it into RetroMCP (ex. `b1.7.3` for Beta 1.7.3)
-<img src="/versionlist.png" alt="image" style="width:300px;height:auto;">  
+<img src="../versionlist.png" alt="image" style="width:300px;height:auto;">  
 6. After the version is done downloading, run `decompile`  
 7. After the version is done decompiling you are safe to close the command line  
 8. Open Eclipse and set the workspace path to the workspace folder in the RetroMCP directory (ex. C:/RetroMCP/workspace)  
