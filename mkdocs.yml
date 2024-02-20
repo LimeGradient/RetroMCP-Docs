@@ -1,4 +1,4 @@
-site_name: RetroMCP Docs
+site_name: MCP Docs
 site_url: https://limegradient.github.io/RetroMCP-Docs/
 nav:
   - Home: index.md
@@ -9,5 +9,7 @@ nav:
       - Making a Block: beta/mcp/block.md
       - Making a Item: beta/mcp/item.md
       - Making a Recipe: beta/mcp/recipe.md
+  - Legacy Console Edition:
+    - Editing PCK Files: lce/pckediting.md
 theme:
   name: dracula
