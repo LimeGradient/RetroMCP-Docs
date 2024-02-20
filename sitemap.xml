@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://limegradient.github.io/RetroMCP-Docs/mcp/</loc>
+         <lastmod>2024-02-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://limegradient.github.io/RetroMCP-Docs/beta/mcp/block/</loc>
          <lastmod>2024-02-20</lastmod>
          <changefreq>daily</changefreq>
