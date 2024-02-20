@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-        <title>Getting Started - RetroMCP Docs</title>
+        <title>Editing PCK Files - MCP Docs</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         
-        <link rel="canonical" href="https://docs.limegradient.xyz/beta/gettingstarted/">
+        <link rel="canonical" href="https://limegradient.github.io/RetroMCP-Docs/lce/pckediting/">
         
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -44,7 +44,7 @@
 
         <div class="drac-text-center">
             
-                <span class="drac-text drac-line-height drac-text-white">RetroMCP Docs</span>
+                <span class="drac-text drac-line-height drac-text-white">MCP Docs</span>
             
         </div>
 
@@ -81,7 +81,7 @@
             </li>
             <li class="drac-box">
                 <a href="../.."
-                    class=" active 
+                    class="
                     drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
                     data-bs-toggle="collapse" data-bs-target="#beta-collapse" aria-expanded="false">
                     Beta
@@ -90,34 +90,67 @@
                     <ul class="mb-5 drac-list drac-list-none">
                             
     <li class="drac-box-ternary">
-        <a href="./"
-            class=" active 
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#retromcp-(no-modloader)-collapse" aria-expanded="false">
+            RetroMCP (No ModLoader)
+        </a>
+
+        <div class="collapse" id="retromcp-(no-modloader)-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../beta/mcp/gettingstarted/"
+            class="
             drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
             Getting Started
         </a>
     </li>
-                            
+                    
     <li class="drac-box-ternary">
-        <a href="../block/"
+        <a href="../../beta/mcp/block/"
             class="
             drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
             Making a Block
         </a>
     </li>
-                            
+                    
     <li class="drac-box-ternary">
-        <a href="../item/"
+        <a href="../../beta/mcp/item/"
             class="
             drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
             Making a Item
         </a>
     </li>
-                            
+                    
     <li class="drac-box-ternary">
-        <a href="../recipe/"
+        <a href="../../beta/mcp/recipe/"
             class="
             drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
             Making a Recipe
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class=" active 
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#legacy-console-edition-collapse" aria-expanded="false">
+                    Legacy Console Edition
+                </a>
+                <div class="collapse" id="legacy-console-edition-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="./"
+            class=" active 
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Editing PCK Files
         </a>
     </li>
                     </ul>
@@ -151,14 +184,14 @@
         <div class="container">
             <div class="row row-preview">
                 <div class="col">
-                    <a href="../../about/"
+                    <a href="../../beta/mcp/recipe/"
                         class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </div>
                 <div class="col">
-                    <a href="../block/"
-                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover" style="padding-left: 3%;">
+                    <a 
+                        class="btn-preview drac-btn drac-text-white--hover disabled" style="padding-left: 3%;">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </div>
@@ -194,24 +227,11 @@
             <!-- block content -->
                 <section class="p-md-5 section-content">
     <article>
-        <p><h1 id="getting-started">Getting Started</h1>
-<p>This page covers how to setup RetroMCP with Eclipse<br />
-What you will need:<br />
-- <a href="https://github.com/MCPHackers/RetroMCP-Java/releases/tag/v1.0-pre3">RetroMCP</a><br />
-- <a href="https://eclipseide.org/">Eclipse</a><br />
-- <a href="https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html">Java Development Kit 8</a>  </p>
-<p>Once you have JDK 8 and Eclipse installed and setup, follow these steps to setup your RetroMCP Project:<br />
-1. Download the RetroMCP-Java-all jar from the link above<br />
-2. Move it into the directory you want to decompile Minecraft into<br />
-3. Run the jar in the command line with <code>java -jar RetroMCP-Java-all.jar</code><br />
-4. Run the setup task with <code>setup</code><br />
-5. Choose which version you want to use from this list of versions and enter it into RetroMCP (ex. <code>b1.7.3</code> for Beta 1.7.3)
-<img src="/versionlist.png" alt="image" style="width:300px;height:auto;"><br />
-6. After the version is done downloading, run <code>decompile</code><br />
-7. After the version is done decompiling you are safe to close the command line<br />
-8. Open Eclipse and set the workspace path to the workspace folder in the RetroMCP directory (ex. C:/RetroMCP/workspace)<br />
-9. You can now start modding your chosen version of Minecraft! All the code is found in the <code>net.minecraft.src</code> package  </p>
-<p>(NOTE): It is good practice to create your own package to differentiate your code from Minecraft's. You should have it be outside of the <code>net.minecraft</code> package and it should follow the <a href="https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html">Java Naming Conventions</a> (ex. <code>xyz.limegradient</code>)</p></p>
+        <p><h1 id="editing-pck-files">Editing PCK Files</h1>
+<p>PCK Files are used for Skins, Map Packs, and More  </p>
+<p>What you will need:<br />
+- <a href="https://github.com/PhoenixARC/-PCK-Studio/releases/tag/Beta">PCK Studio 7.0 Beta</a><br />
+- A Dump of Minecraft Legacy Console Edition  </p></p>
     </article>
 </section>
             <!-- endblock -->

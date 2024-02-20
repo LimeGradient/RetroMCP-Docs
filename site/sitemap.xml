@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://docs.limegradient.xyz/</loc>
-         <lastmod>2024-02-16</lastmod>
+         <loc>https://limegradient.github.io/RetroMCP-Docs/</loc>
+         <lastmod>2024-02-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.limegradient.xyz/about/</loc>
-         <lastmod>2024-02-16</lastmod>
+         <loc>https://limegradient.github.io/RetroMCP-Docs/about/</loc>
+         <lastmod>2024-02-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.limegradient.xyz/beta/block/</loc>
-         <lastmod>2024-02-16</lastmod>
+         <loc>https://limegradient.github.io/RetroMCP-Docs/beta/mcp/block/</loc>
+         <lastmod>2024-02-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.limegradient.xyz/beta/gettingstarted/</loc>
-         <lastmod>2024-02-16</lastmod>
+         <loc>https://limegradient.github.io/RetroMCP-Docs/beta/mcp/gettingstarted/</loc>
+         <lastmod>2024-02-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.limegradient.xyz/beta/item/</loc>
-         <lastmod>2024-02-16</lastmod>
+         <loc>https://limegradient.github.io/RetroMCP-Docs/beta/mcp/item/</loc>
+         <lastmod>2024-02-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.limegradient.xyz/beta/recipe/</loc>
-         <lastmod>2024-02-16</lastmod>
+         <loc>https://limegradient.github.io/RetroMCP-Docs/beta/mcp/recipe/</loc>
+         <lastmod>2024-02-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://limegradient.github.io/RetroMCP-Docs/lce/pckediting/</loc>
+         <lastmod>2024-02-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
