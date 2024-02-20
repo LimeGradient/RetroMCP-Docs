@@ -3,6 +3,7 @@ site_url: https://limegradient.github.io/RetroMCP-Docs/
 nav:
   - Home: index.md
   - About: about.md
+  - MCP: mcp.md
   - Beta:
     - RetroMCP (No ModLoader):
       - Getting Started: beta/mcp/gettingstarted.md
