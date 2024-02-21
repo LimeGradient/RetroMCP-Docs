@@ -12,5 +12,6 @@ nav:
       - Making a Recipe: beta/mcp/recipe.md
   - Legacy Console Edition:
     - Editing PCK Files: lce/pckediting.md
+    - Game Resources: lce/resourcepacks.md
 theme:
   name: dracula
