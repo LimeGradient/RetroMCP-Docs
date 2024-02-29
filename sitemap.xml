@@ -2,47 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://limegradient.github.io/RetroMCP-Docs/</loc>
-         <lastmod>2024-02-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://limegradient.github.io/RetroMCP-Docs/about/</loc>
-         <lastmod>2024-02-22</lastmod>
+         <lastmod>2024-02-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://limegradient.github.io/RetroMCP-Docs/mcp/</loc>
-         <lastmod>2024-02-22</lastmod>
+         <lastmod>2024-02-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://limegradient.github.io/RetroMCP-Docs/beta/gettingstarted/</loc>
+         <lastmod>2024-02-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://limegradient.github.io/RetroMCP-Docs/beta/mcp/block/</loc>
-         <lastmod>2024-02-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://limegradient.github.io/RetroMCP-Docs/beta/mcp/gettingstarted/</loc>
-         <lastmod>2024-02-22</lastmod>
+         <lastmod>2024-02-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://limegradient.github.io/RetroMCP-Docs/beta/mcp/item/</loc>
-         <lastmod>2024-02-22</lastmod>
+         <lastmod>2024-02-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://limegradient.github.io/RetroMCP-Docs/beta/mcp/recipe/</loc>
-         <lastmod>2024-02-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://limegradient.github.io/RetroMCP-Docs/lce/pckediting/</loc>
-         <lastmod>2024-02-22</lastmod>
+         <lastmod>2024-02-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://limegradient.github.io/RetroMCP-Docs/lce/resourcepacks/</loc>
-         <lastmod>2024-02-22</lastmod>
+         <lastmod>2024-02-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://limegradient.github.io/RetroMCP-Docs/lce/modding/gettingstarted/</loc>
+         <lastmod>2024-02-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://limegradient.github.io/RetroMCP-Docs/lce/modding/pckediting/</loc>
+         <lastmod>2024-02-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
