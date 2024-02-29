@@ -5,13 +5,15 @@ nav:
   - About: about.md
   - MCP: mcp.md
   - Beta:
+    - Getting Started: beta/gettingstarted.md
     - RetroMCP (No ModLoader):
-      - Getting Started: beta/mcp/gettingstarted.md
       - Making a Block: beta/mcp/block.md
       - Making a Item: beta/mcp/item.md
       - Making a Recipe: beta/mcp/recipe.md
   - Legacy Console Edition:
-    - Editing PCK Files: lce/pckediting.md
+    - Modding:
+      - Getting Started: lce/modding/gettingstarted.md
+      - Editing PCK Files: lce/modding/pckediting.md
     - Game Resources: lce/resourcepacks.md
 theme:
   name: dracula

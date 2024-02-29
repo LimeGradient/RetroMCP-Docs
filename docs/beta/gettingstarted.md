@@ -8,7 +8,7 @@ What you will need:
 
 Once you have JDK 8 and Eclipse installed and setup, follow these steps to setup your RetroMCP Project:  
 
-# Using the CLI
+## Using the CLI
 
 1. Download the RetroMCP-Java-all jar from the link above  
 2. Move it into the directory you want to decompile Minecraft into  
@@ -21,7 +21,7 @@ Once you have JDK 8 and Eclipse installed and setup, follow these steps to setup
 8. Open Eclipse and set the workspace path to the workspace folder in the RetroMCP directory (ex. C:/RetroMCP/workspace)  
 9. You can now start modding your chosen version of Minecraft! All the code is found in the `net.minecraft.src` package  
 
-# Using the GUI
+## Using the GUI
 1. Download the RetroMCP-Java-all jar from the link above  
 2. Move it into the directory you want to decompile Minecraft into  
 3. Open the jar with a double click or running `java -jar RetroMCP-Java-all.jar`
